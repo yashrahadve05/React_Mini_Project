@@ -59,6 +59,7 @@ function App() {
               max={30}
               className="cursor-pointer"
               onChange={(e) => setLength(e.target.value)}
+              value={length}
             />
             <label htmlFor="length">Length: {length}</label>
           </div>
